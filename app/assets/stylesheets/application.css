@@ -12,4 +12,14 @@
  *
  *= require_tree .
  *= require_self
+
+ *= require bootstrap.min
+ *= require sidebar-nav.min
+ *= require jquery.toast
+ *= require morris
+ *= require chartist.min
+ *= require chartist-plugin-tooltip
+ *= require animate
+ *= require style
+ *= require default
  */
