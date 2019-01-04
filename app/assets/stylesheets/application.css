@@ -22,4 +22,6 @@
  *= require animate
  *= require style
  *= require default
+ *= require main
+ *= require util
  */

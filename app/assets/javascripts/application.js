@@ -23,8 +23,6 @@
 //= require jquery.waypoints
 //= require jquery.counterup.min
 //= require chartist.min
-//= require chartist-plugin-tooltip.min
 //= require jquery.sparkline.min
 //= require custom.min
-//= require dashboard1
 //= require jquery.toast

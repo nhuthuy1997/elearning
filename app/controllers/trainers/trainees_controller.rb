@@ -1,4 +1,4 @@
-module Trainer
+module Trainers
   class TraineesController < BaseController
     def index
     end

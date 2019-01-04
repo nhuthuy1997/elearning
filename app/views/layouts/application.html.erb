@@ -10,6 +10,21 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="preloader">
+      <svg class="circular" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+      </svg>
+    </div>
+    <div id="wrapper">
+      <%= render "layouts/top_navbar", user: current_user %>
+      <div class="clearfix"></div>
+      <%= render "layouts/left_side_bar" %>
+      <div id="page-wrapper">
+	      <div class="container-fluid">
+          <%= yield %>
+      	</div>
+      </div>
+      <%= render "layouts/footer" %>
+    </div>
   </body>
 </html>

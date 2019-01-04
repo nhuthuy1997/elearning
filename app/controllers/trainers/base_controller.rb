@@ -1,5 +1,4 @@
-module Trainer
+module Trainers
   class BaseController < ApplicationController
-
   end
 end
